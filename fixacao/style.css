@@ -24,14 +24,32 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+    text-align: center;
+  }
+  
+  section:nth-child(3):active {
+    background-color: green;
   }
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
+  }
+
+  footer:hover {
+    background-color: yellow;
+  }
+
+  aside {
+    position: absolute; right: 1vw; bottom: -117vh;
+    height: 10vh;
+    width: 20vw;
   }
